@@ -13,7 +13,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "/frontend/dist")))
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, "api", "dist", "index.html"))
+  res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"))
 });
 
 //'mongodb://127.0.0.1:27017/Authapp'
