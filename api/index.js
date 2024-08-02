@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Psmore
+// for more details read documentation
 import express, { urlencoded } from "express";
 import mongoose from "mongoose";
 import userRoutes from "./routes/user.route.js";
