@@ -1,3 +1,4 @@
+// Copyright (C) 2024 Psmore
 import express from "express";
 import { signup, signin, google, signout } from "../controllers/auth.controller.js";
 const router = express.Router();

@@ -1,3 +1,4 @@
+// Copyright (C) 2024 Psmore
 import jwt from "jsonwebtoken";
 import { errorHandler } from "./error.js";
 

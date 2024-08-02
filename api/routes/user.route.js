@@ -1,3 +1,4 @@
+// Copyright (C) 2024 Psmore
 import express from 'express';
 import { verifyToken } from '../utils/verifyUser.js';
 import { updateUser, deleteUser, test} from '../controllers/user.controller.js';

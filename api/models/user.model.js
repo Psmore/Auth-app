@@ -1,3 +1,4 @@
+// Copyright (C) 2024 Psmore
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
